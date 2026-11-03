@@ -1,4 +1,5 @@
 import { Employee, AttendanceRecord, Department, AttendanceStatus } from '../types';
+import badgeAvatar from '../assets/images/company_employee_badge_avatar_1793668126953.jpg';
 
 export const INITIAL_EMPLOYEES: Employee[] = [
   {
@@ -17,7 +18,7 @@ export const INITIAL_EMPLOYEES: Employee[] = [
     name: 'Valentina Soto',
     role: 'Operations Director',
     department: 'Operations',
-    avatarUrl: '/src/assets/images/company_employee_badge_avatar_1793668126953.jpg',
+    avatarUrl: badgeAvatar,
     carColor: '#ec4899', // Pink
     carModel: 'Hyper GT',
     email: 'valentina.soto@company.com',

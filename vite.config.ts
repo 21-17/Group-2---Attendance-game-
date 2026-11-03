@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Group-2---Attendance-game-/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

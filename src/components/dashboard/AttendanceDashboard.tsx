@@ -4,6 +4,7 @@ import { AttendanceMetrics } from './AttendanceMetrics';
 import { ArrivalChart } from './ArrivalChart';
 import { AttendanceTable } from './AttendanceTable';
 import { Play, Sparkles } from 'lucide-react';
+import bannerImg from '../../assets/images/corporate_car_race_banner_1793668128012.jpg';
 
 interface AttendanceDashboardProps {
   records: AttendanceRecord[];
@@ -21,7 +22,7 @@ export const AttendanceDashboard: React.FC<AttendanceDashboardProps> = ({
       <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-xl">
         <div className="relative h-44 sm:h-52 w-full overflow-hidden">
           <img
-            src="/src/assets/images/corporate_car_race_banner_1793668128012.jpg"
+            src={bannerImg}
             alt="Corporate morning race toward headquarters"
             className="w-full h-full object-cover object-center brightness-60"
             onError={(e) => {
