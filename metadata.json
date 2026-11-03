@@ -1,0 +1,8 @@
+{
+  "name": "AutoCheck: Carrera de Asistencia Corporativa",
+  "description": "Sistema interactivo de registro de asistencia corporativa donde los empleados registran su entrada compitiendo en una carrera de obstáculos de 90 segundos hacia la oficina central, evaluando puntualidad respecto a las 8:00 AM con reportes analíticos completos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
